@@ -1,4 +1,4 @@
-"""import io
+import io
 import streamlit as st
 from DeductionConvertUNFIWest import convert_pdf_to_excel, save_to_excel
 
@@ -21,6 +21,4 @@ if uploaded:
         file_name="converted.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
-"""
-import streamlit as st
-st.title("✅ It works!")
+
